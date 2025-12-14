@@ -17,7 +17,7 @@ function Sidebar() {
     return (
         <div className="min-h-screen bg-black flex pl-12 pt-16 pb-16">
 
-            <div className="w-72 rounded-2xl bg-gradient-to-b from-zinc-900 to-zinc-800 
+            <div className="w-72 rounded-2xl bg-gradient-to-b from-zinc-900 to-zinc-800
                       p-6 shadow-[0_20px_50px_rgba(0,0,0,0.7)]
                       border border-zinc-700">
 
@@ -43,7 +43,7 @@ function Sidebar() {
                     {useicon.map((data, index) => (
                         <div key={index} className="flex items-center gap-3">
 
-                            <div className="h-10 w-10 rounded-lg bg-zinc-800 
+                            <div className="h-10 w-10 rounded-lg bg-zinc-800
                               flex items-center justify-center
                               shadow-md border border-zinc-700">
                                 <data.icon size={18} className="text-yellow-400" />
@@ -62,10 +62,13 @@ function Sidebar() {
                     ))}
                 </div>
             </div>
+
+      <div className="flex-1">
+        <Aboutcomponent />
+      </div>
         </div>
     );
 }
-    <Aboutcomponent/>
 
 
 export default Sidebar;
