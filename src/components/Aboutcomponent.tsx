@@ -25,55 +25,72 @@ function Aboutcomponent() {
   ];
 
   return (
-    <div className="bg-zinc-900 rounded-2xl p-8 ml-6 mr-6 border border-zinc-700">
+    <>
 
-      {/* ABOUT */}
-      <h1 className="text-white text-2xl font-semibold mb-3">
-        About Me
-      </h1>
+      <div className="bg-zinc-900 rounded-2xl  ml-6 mr-6 border border-zinc-700">
+        <div className="absolute top-16 right-6">
 
-      <p className="text-zinc-400 mb-8">
-        Hello 👋 I am Anany Tewari, a web developer passionate about
-        building clean and modern UI.
-      </p>
+        <div className="bg-zinc-800/80 backdrop-blur
+                  border border-zinc-700
+                  rounded-2xl px-3 py-2">
+        <ul className="flex justify-end gap-4 text-white pr-6 pt-2 items-center">
+          <li>About</li>
+          <li>Resume</li>
+          <li>Portfolio</li>
+          <li>Blog</li>
+          <li>Comtact</li>
+        </ul>
+        </div>
+        </div>
+        <div className="p-6">
+          <h1 className="text-white text-2xl font-semibold mb-3">
+            About Me
+          </h1>
 
-      {/* WHAT I'M DOING */}
-      <h1 className="text-white text-2xl font-semibold mb-6">
-        What I'm Doing
-      </h1>
+          <p className="text-zinc-400 mb-8">
+            Hello 👋 I am Anany Tewari, a web developer passionate about
+            building clean and modern UI.
+          </p>
 
-      {/* GRID */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {services.map((item, index) => (
-          <div
-            key={index}
-            className="rounded-2xl bg-zinc-800/60 backdrop-blur
+          {/* WHAT I'M DOING */}
+          <h1 className="text-white text-2xl font-semibold mb-6">
+            What I'm Doing
+          </h1>
+
+          {/* GRID */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {services.map((item, index) => (
+              <div
+                key={index}
+                className="rounded-2xl bg-zinc-800/60 backdrop-blur
                        p-6 border border-zinc-700
                        shadow-[0_10px_30px_rgba(0,0,0,0.6)]
                        hover:border-yellow-400 transition"
-          >
-            <div className="flex gap-4 items-start">
+              >
+                <div className="flex gap-4 items-start">
 
-              {/* ICON */}
-              <div className="p-3 rounded-xl bg-zinc-900 border border-zinc-700">
-                <item.icon className="text-yellow-400" size={26} />
+                  {/* ICON */}
+                  <div className="p-3 rounded-xl bg-zinc-900 border border-zinc-700">
+                    <item.icon className="text-yellow-400" size={26} />
+                  </div>
+
+                  {/* TEXT */}
+                  <div>
+                    <h3 className="text-white text-lg font-semibold mb-1">
+                      {item.title}
+                    </h3>
+                    <p className="text-zinc-400 text-sm leading-relaxed">
+                      {item.desc}
+                    </p>
+                  </div>
+
+                </div>
               </div>
-
-              {/* TEXT */}
-              <div>
-                <h3 className="text-white text-lg font-semibold mb-1">
-                  {item.title}
-                </h3>
-                <p className="text-zinc-400 text-sm leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-
-            </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
