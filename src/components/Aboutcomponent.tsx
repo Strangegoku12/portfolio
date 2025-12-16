@@ -28,20 +28,7 @@ function Aboutcomponent() {
     <>
 
       <div className="bg-zinc-900 rounded-2xl  ml-6 mr-6 border border-zinc-700">
-        <div className="absolute top-16 right-6">
-
-        <div className="bg-zinc-800/80 backdrop-blur
-                  border border-zinc-700
-                  rounded-2xl px-3 py-2">
-        <ul className="flex justify-end gap-4 text-white pr-6 pt-2 items-center">
-          <li>About</li>
-          <li>Resume</li>
-          <li>Portfolio</li>
-          <li>Blog</li>
-          <li>Comtact</li>
-        </ul>
-        </div>
-        </div>
+        
         <div className="p-6">
           <h1 className="text-white text-2xl font-semibold mb-3">
             About Me

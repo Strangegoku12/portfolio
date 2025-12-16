@@ -2,6 +2,10 @@ import { Mail, Phone, Linkedin, Github } from "lucide-react";
 import { useState } from "react";
 import reactLogo from "../assets/react.svg";
 import Aboutcomponent from "./Aboutcomponent";
+import Resume from "./Resume";
+import Portfolio from "./Portfolio";
+import Blog from "./Blog";
+import Contact from "./Contact";
 
 function Sidebar() {
     const [useicon] = useState([
@@ -13,11 +17,13 @@ function Sidebar() {
         { icon: Github, heading: "Github", para: "github.com/anany" },
         { icon: Github, heading: "Github", para: "github.com/anany" },
     ]);
+      const [activePage, setActivePage] = useState("about");
+
 
     return (
         <div className="min-h-screen bg-black flex pl-12 pt-16 pb-16">
 
-            <div className="w-72 rounded-2xl bg-gradient-to-b from-zinc-900 to-zinc-800
+            <div className="w-72 h-[650px] rounded-2xl bg-gradient-to-b from-zinc-900 to-zinc-800
                       p-6 shadow-[0_20px_50px_rgba(0,0,0,0.7)]
                       border border-zinc-700">
 
@@ -61,10 +67,58 @@ function Sidebar() {
                         </div>
                     ))}
                 </div>
+                <div>
+                    
+                </div>
             </div>
 
       <div className="flex-1">
-        <Aboutcomponent />
+          <div className="min-h-screen bg-black flex justify-center items-start ">
+           <div className="relative w-full max-w-5xl">
+     
+             {/* NAVBAR */}
+             <div className="absolute right-6 z-10">
+               <div className="bg-zinc-800/80 backdrop-blur border border-zinc-700 rounded-sm px-4 py-2">
+                 <ul className="flex gap-4 text-white text-sm">
+                   <li
+                     onClick={() => setActivePage("about")}
+                     className={`cursor-pointer ${
+                       activePage === "about" ? "text-yellow-400" : ""
+                     }`}
+                   >
+                     About
+                   </li>
+     
+                   <li
+                     onClick={() => setActivePage("resume")}
+                     className={`cursor-pointer ${
+                       activePage === "resume" ? "text-yellow-400" : ""
+                     }`}
+                   >
+                     Resume
+                   </li>
+     
+                   <li   onClick={() => setActivePage("portfolio")}
+                     className={`cursor-pointer ${
+                       activePage === "portfolio" ? "text-yellow-400" : ""
+                     }`}>Portfolio</li>
+                   <li onClick={()=>setActivePage("Blog")} className={`cursor-pointer ${activePage === "Blog" ? "text-yellow-400" : ""} `}>Blog</li>
+                   <li   onClick={() => setActivePage("contact")}
+                     className={`cursor-pointer ${
+                       activePage === "contact" ? "text-yellow-400" : ""
+                     }`}>Contact</li>
+                 </ul>
+               </div>
+             </div>
+     
+             {/* CONTENT AREA */}
+             {activePage === "about" && <Aboutcomponent />}
+             {activePage === "resume" && <Resume />}
+             {activePage === "portfolio" && <Portfolio />}
+              {activePage === "Blog" && <Blog />}
+              {activePage === "contact" && <Contact />}
+           </div>
+         </div>
       </div>
         </div>
     );

@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar"
 
 
 function Maincomponent() {
+    
     return(
     <div>
         <BlobCursor/>
