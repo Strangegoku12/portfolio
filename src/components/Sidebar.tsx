@@ -68,7 +68,7 @@ function Sidebar() {
                     ))}
                 </div>
                 <div>
-                    
+
                 </div>
             </div>
 
@@ -76,7 +76,7 @@ function Sidebar() {
           <div className="min-h-screen bg-black flex justify-center items-start ">
            <div className="relative w-full max-w-5xl">
      
-             {/* NAVBAR */}
+             {/* NAVBARs */}
              <div className="absolute right-6 z-10">
                <div className="bg-zinc-800/80 backdrop-blur border border-zinc-700 rounded-sm px-4 py-2">
                  <ul className="flex gap-4 text-white text-sm">
