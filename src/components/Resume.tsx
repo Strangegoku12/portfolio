@@ -1,10 +1,11 @@
+import { Laptop,BookMarked } from "lucide-react";
 
 
 import './resume.css'
-function Resume(){
-    return(
-          <>
-  <article className="resume ml-6" data-page="resume">
+function Resume() {
+  return (
+    <>
+      <article className="resume ml-6" data-page="resume">
 
         <header>
           <h2 className="text-white text-2xl font-semibold mb-3 article-title">Resume</h2>
@@ -14,7 +15,7 @@ function Resume(){
 
           <div className="title-wrapper">
             <div className="icon-box">
-              {/* <ion-icon name="book-outline"></ion-icon> */}
+              <BookMarked color="yellow" />
             </div>
 
             <h3 className="h3">Education</h3>
@@ -24,41 +25,36 @@ function Resume(){
 
             <li className="timeline-item">
 
-              <h4 className="h4 timeline-item-title">University school of the arts</h4>
+              <h4 className="h4 timeline-item-title">City Montessori School (10th)</h4>
 
-              <span>2007 — 2008</span>
+              <span>20016 — 2018</span>
 
               <p className="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Completed with 85%, with a strong foundation in Physics, Chemistry, and Mathematics.
               </p>
 
             </li>
 
             <li className="timeline-item">
 
-              <h4 className="h4 timeline-item-title">New york academy of art</h4>
+              <h4 className="h4 timeline-item-title">City Montessori School (12th)</h4>
 
-              <span>2006 — 2007</span>
+              <span>2018 — 2020</span>
 
               <p className="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                Completed with 82%, with a strong foundation in Physics, Chemistry, and Mathematics.
               </p>
 
             </li>
 
             <li className="timeline-item">
 
-              <h4 className="h4 timeline-item-title">High school of art and design</h4>
+              <h4 className="h4 timeline-item-title">Kiet Group Of Institutions (B.Tech)</h4>
 
-              <span>2002 — 2004</span>
+              <span>2020 — 2024</span>
 
               <p className="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                B.Tech in Computer Science – Graduated with a 7.7 CGPA, gaining strong knowledge in software development, data structures, databases, and modern computing technologies.
               </p>
 
             </li>
@@ -71,7 +67,7 @@ function Resume(){
 
           <div className="title-wrapper">
             <div className="icon-box">
-              {/* <ion-icon name="book-outline"></ion-icon> */}
+            <Laptop color="yellow"/>
             </div>
 
             <h3 className="h3">Experience</h3>
@@ -81,42 +77,40 @@ function Resume(){
 
             <li className="timeline-item">
 
-              <h4 className="h4 timeline-item-title">Creative director</h4>
+              <h4 className="h4 timeline-item-title">Progressive Infotech Pvt Ltd.</h4>
 
-              <span>2015 — Present</span>
+              <span>2025 — Present</span>
 
               <p className="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                Led development of responsive, user-friendly interfaces using Angular, HTML, and CSS; optimized performance,
+                ensured cross-browser compatibility, and troubleshot technical issues. Refactored 32 static tables into a dynamic
+                reusable component, reducing load time by 60%.– Collaborated with cross-functional teams to integrate frontend with backend systems, boosting productivity;
+                mentored junior developers, conducted code reviews, and promoted best practices to foster continuous learning
               </p>
 
             </li>
 
             <li className="timeline-item">
 
-              <h4 className="h4 timeline-item-title">Art director</h4>
+              <h4 className="h4 timeline-item-title">CodeMaya</h4>
 
-              <span>2013 — 2015</span>
+              <span>2024 — 2025</span>
 
               <p className="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Led frontend development for loan and sales platforms (Tradeline, Provarity) using Angular and ReactJS, delivering responsive, high-performance dashboards that improved UI/UX and digitized business workflows. Built scalable backend services with NestJS, PostgreSQL, JWT, and WebSocket, integrating APIs such as ChatGPT and Zoom while mentoring team members and promoting frontend best practices.
               </p>
 
             </li>
 
             <li className="timeline-item">
 
-              <h4 className="h4 timeline-item-title">Web designer</h4>
+              <h4 className="h4 timeline-item-title">Techmihir Naik.in</h4>
 
-              <span>2010 — 2013</span>
+              <span>2023 — 2023</span>
 
               <p className="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                 Aresponsive frontend for Postica using Angular, CSS3, and modern UI libraries, enabling seamless travel bookings
+across devices. Redesigned and optimized responsive web UI for a seamless customer experience across all screen sizes
               </p>
 
             </li>
@@ -147,12 +141,12 @@ function Resume(){
             <li className="skills-item">
 
               <div className="title-wrapper">
-                <h5 className="h5">Graphic design</h5>
-                <data value="70">70%</data>
+                <h5 className="h5">React</h5>
+                <data value="70">90%</data>
               </div>
 
               <div className="skill-progress-bg">
-                <div className="skill-progress-fill" style={{width: '70%'}}></div>
+                <div className="skill-progress-fill" style={{ width: '70%' }}></div>
               </div>
 
             </li>
@@ -160,12 +154,12 @@ function Resume(){
             <li className="skills-item">
 
               <div className="title-wrapper">
-                <h5 className="h5">Branding</h5>
+                <h5 className="h5">Angular</h5>
                 <data value="90">90%</data>
               </div>
 
               <div className="skill-progress-bg">
-                <div className="skill-progress-fill" style={{width: '90%'}}></div>
+                <div className="skill-progress-fill" style={{ width: '90%' }}></div>
               </div>
 
             </li>
@@ -173,12 +167,103 @@ function Resume(){
             <li className="skills-item">
 
               <div className="title-wrapper">
-                <h5 className="h5">WordPress</h5>
+                <h5 className="h5">Nodejs</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style={{ width: '80%' }}></div>
+              </div>
+
+            </li>
+
+            <li className="skills-item">
+
+              <div className="title-wrapper">
+                <h5 className="h5">ExpressJs</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style={{ width: '80%' }}></div>
+              </div>
+
+            </li>
+
+            <li className="skills-item">
+
+              <div className="title-wrapper">
+                <h5 className="h5">MongoDB</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style={{ width: '70%' }}></div>
+              </div>
+
+            </li>
+
+             <li className="skills-item">
+
+              <div className="title-wrapper">
+                <h5 className="h5">SQL</h5>
+                <data value="50">85%</data>
+              </div>
+
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style={{ width: '85%' }}></div>
+              </div>
+
+            </li>
+
+             <li className="skills-item">
+
+              <div className="title-wrapper">
+                <h5 className="h5">Postgres</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style={{ width: '70%' }}></div>
+              </div>
+
+            </li>
+
+             <li className="skills-item">
+
+              <div className="title-wrapper">
+                <h5 className="h5">Git</h5>
+                <data value="50">90%</data>
+              </div>
+
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style={{ width: '90%' }}></div>
+              </div>
+
+            </li>
+
+             <li className="skills-item">
+
+              <div className="title-wrapper">
+                <h5 className="h5">Docker</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style={{ width: '70%' }}></div>
+              </div>
+
+            </li>
+
+             <li className="skills-item">
+
+              <div className="title-wrapper">
+                <h5 className="h5">AWS(EC2)</h5>
                 <data value="50">50%</data>
               </div>
 
               <div className="skill-progress-bg">
-                <div className="skill-progress-fill" style={{width: '50%'}}></div>
+                <div className="skill-progress-fill" style={{ width: '50%' }}></div>
               </div>
 
             </li>
@@ -189,7 +274,7 @@ function Resume(){
 
       </article>
     </>
-    )
+  )
 }
 
 export default Resume
