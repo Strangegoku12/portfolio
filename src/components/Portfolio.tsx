@@ -4,34 +4,42 @@ import { useState } from "react";
             category: "Frontend",
             projectname: "TaskFlow",
             img: "https://images.unsplash.com/photo-1765825365130-52e276bca060?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            openproject: "http://127.0.0.1:5500/vcard-personal-portfolio/#",
+            openproject: "https://github.com/Strangegoku12/Taskmanagement",
             sourcecode: ""
 
         },
         {
             category: "Backend",
             projectname: "ShopSphere",
-            img: "https://images.unsplash.com/photo-1765572045667-7f00f4b299ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
-            openproject: "https://www.youtube.com/",
+            img: "https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvbW1lcmNlfGVufDB8fDB8fHww",
+            openproject: "https://github.com/hasan-py/MERN_Stack_Project_Ecommerce_Hayroo",
+            sourcecode: ""
+
+        },
+        {
+            category: "DataScience",
+            projectname: "Icc_WorldCup",
+            img: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y3JpY2tldHxlbnwwfHwwfHx8MA%3D%3D",
+            openproject: "https://github.com/Strangegoku12/ICC_wrold_cup",
             sourcecode: ""
 
         },
         {
             category: "Frontend",
-            projectname: "",
-            img: "",
-            openproject: "",
+            projectname: "Portfolio",
+            img: "https://plus.unsplash.com/premium_photo-1678917651747-5c58fda9e7f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvfGVufDB8fDB8fHww",
+            openproject: "https://github.com/Strangegoku12/portfolio",
             sourcecode: ""
 
         },
-        {
-            category: "Frontend",
-            projectname: "",
-            img: "",
-            openproject: "",
+         {
+            category: "Backend",
+            projectname: "Employee Management System",
+            img: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZW1wbG95ZWV8ZW58MHx8MHx8fDA%3D",
+            openproject: "https://github.com/Strangegoku12/employemanagement",
             sourcecode: ""
 
-        },
+        }
 
     ]
 

@@ -15,54 +15,42 @@ function Blog() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                         <div className="zinc-100 rounded-2xl p-4 border border-zinc-700 hover:border-yellow-400 transition">
                              <img
-                                src="https://images.unsplash.com/photo-1765572045667-7f00f4b299ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
+                                src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmVhY3Rqc3xlbnwwfHwwfHx8MA%3D%3D"
                                 alt="Blog Post"
                                 className="rounded-xl w-full h-44 object-cover"
                             />
-                            <h2 className="text-white mt-4 text-xl font-semibold mb-2">My First Blog Post</h2>
+                            <h2 className="text-white mt-4 text-xl font-semibold mb-2">React Blog</h2>
                             <p className="text-zinc-400 mb-4">
-                                This is a sample blog post. Here, I will share my thoughts on web development and other topics.
+                                This is a React blog post. Here, I will share my thoughts on web development and other topics.
                             </p>
-                            <a href="#" className="text-yellow-400 hover:underline">Read More</a>
+                            <a href="https://react.dev/blog" className="text-yellow-400 hover:underline">Read More</a>
                         </div>
 
                         <div className="zinc-100 rounded-2xl p-4 border border-zinc-700 hover:border-yellow-400 transition">
                             <img
-                                src="https://images.unsplash.com/photo-1765572045667-7f00f4b299ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
+                                src="https://images.unsplash.com/photo-1687603921109-46401b201195?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="Blog Post"
                                 className="rounded-xl w-full h-44 object-cover"
                             />
-                            <h2 className="text-white text-xl mt-4 font-semibold mb-2">My First Blog Post</h2>
+                            <h2 className="text-white text-xl mt-4 font-semibold mb-2">Nodejs Blog</h2>
                             <p className="text-zinc-400 mb-4">
-                                This is a sample blog post. Here, I will share my thoughts on web development and other topics.
+                                This is a Nodejs blog post. Here, I will share my thoughts on web development and other topics.
                             </p>
-                            <a href="#" className="text-yellow-400 hover:underline">Read More</a>
+                            <a href="https://nodejs.org/en/blog" className="text-yellow-400 hover:underline">Read More</a>
                         </div>
 
-                        <div className="zinc-100 rounded-2xl p-4 border border-zinc-700 hover:border-yellow-400 transition">
-                             <img
-                                src="https://images.unsplash.com/photo-1765572045667-7f00f4b299ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
-                                alt="Blog Post"
-                                className="rounded-xl w-full h-44 object-cover"
-                            />
-                            <h2 className="text-white text-xl mt-4 font-semibold mb-2">My First Blog Post</h2>
-                            <p className="text-zinc-400 mb-4">
-                                This is a sample blog post. Here, I will share my thoughts on web development and other topics.
-                            </p>
-                            <a href="#" className="text-yellow-400 hover:underline">Read More</a>
-                        </div>
-
+                      
                                                 <div className="zinc-100 rounded-2xl p-4 border border-zinc-700 hover:border-yellow-400 transition">
                              <img
-                                src="https://images.unsplash.com/photo-1765572045667-7f00f4b299ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
+                                src="https://plus.unsplash.com/premium_photo-1699544856963-49c417549268?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0ZXJpYWx1aXxlbnwwfHwwfHx8MA%3D%3D"
                                 alt="Blog Post"
                                 className="rounded-xl w-full h-44 object-cover"
                             />
-                            <h2 className="text-white text-xl mt-4 font-semibold mb-2">My First Blog Post</h2>
+                            <h2 className="text-white text-xl mt-4 font-semibold mb-2">React Bits</h2>
                             <p className="text-zinc-400 mb-4">
-                                This is a sample blog post. Here, I will share my thoughts on web development and other topics.
+                                This is a Reactbits blog . Here, I will share my thoughts on web development and other topics.
                             </p>
-                            <a href="#" className="text-yellow-400 hover:underline">Read More</a>
+                            <a href="https://reactbits.dev/" className="text-yellow-400 hover:underline">Read More</a>
                         </div>
                     </div>
                 </div>
