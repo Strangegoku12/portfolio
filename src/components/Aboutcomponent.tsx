@@ -2,7 +2,7 @@ import { Code, Brain, BarChart3, Gamepad2 } from "lucide-react";
 import github from "../assets/github.png";
 import football from "../assets/football.jpg";
 import books from "../assets/books.jpg";
-
+import travelling from "../assets/travelling.jpg";
 function Aboutcomponent() {
   const services = [
     {
@@ -106,15 +106,28 @@ function Aboutcomponent() {
 
 
 
-         
+
 
           <h1 className="text-white text-2xl font-semibold mb-4 mt-8">
-            My Hobbies  
+            My Hobbies
           </h1>
-          <div className="flex">
-          <img src={football} className="w-60 h-60 mr-4 rounded-lg" />
-          <img src={books} className="w-60 h-60 rounded-lg" />
+
+          <div className="flex gap-16">
+            {[football, books, travelling].map((img, index) => (
+              <div
+                key={index}
+                className="w-60 h-60 overflow-hidden rounded-lg transform transition-all duration-500
+                 hover:scale-110 hover:-translate-y-3 hover:shadow-[0_20px_50px_rgba(255,255,255,0.15)]"
+              >
+                <img
+                  src={img}
+                  alt="hobby"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
           </div>
+
         </div>
       </div>
     </>

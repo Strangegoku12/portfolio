@@ -1,6 +1,6 @@
 import { Mail, Phone, Linkedin, Github, Instagram, Facebook, Twitter } from "lucide-react";
 import { useState } from "react";
-import reactLogo from "../assets/react.svg";
+import reactLogo from "../assets/WhatsApp Image 2025-12-20 at 19.42.15 (1).jpeg";
 import Aboutcomponent from "./Aboutcomponent";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
@@ -28,8 +28,8 @@ function Sidebar() {
                       border border-zinc-700">
 
         <div className="flex justify-center mb-4">
-          <div className="h-20 w-20 rounded-xl bg-zinc-700 flex items-center justify-center shadow-md">
-            <img src={reactLogo} className="h-12 w-12" />
+          <div className="h-30 w-30 rounded-xl bg-zinc-700 flex items-center  justify-center shadow-md">
+            <img src={reactLogo} className="h-30 w-30 rounded-md" />
           </div>
         </div>
 
